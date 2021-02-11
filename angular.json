@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-template",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-template"
+    }
+  },
+  "defaultProject": "angular-template",
+  "cli": {
+    "analytics": "598da011-12cd-42db-b68d-a4bf4683bb7f"
+  }
 }
